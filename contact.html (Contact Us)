@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | NPHere</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="section-hero" style="background: var(--mist-blue); color: #fff; padding:100px 20px; text-align:center;">
+  <h1>Contact Us</h1>
+  <p>We’d Love to Hear From You</p>
+</section>
+
+<section>
+  <form class="fade-up" style="max-width:600px;margin:auto; display:flex; flex-direction:column; gap:15px;">
+    <input type="text" placeholder="Your Name" required style="padding:12px; border-radius:8px; border:1px solid #ccc;">
+    <input type="email" placeholder="Your Email" required style="padding:12px; border-radius:8px; border:1px solid #ccc;">
+    <textarea placeholder="Your Message" rows="5" style="padding:12px; border-radius:8px; border:1px solid #ccc;"></textarea>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 NPHere | Beyond Limits, Into Tomorrow</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
