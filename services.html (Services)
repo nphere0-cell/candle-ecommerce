@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | NPHere</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html" class="active">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="section-hero" style="background: var(--coral-pink); color: #fff; padding:100px 20px; text-align:center;">
+  <h1>Our Services</h1>
+  <p>Delivering Excellence Beyond Limits</p>
+</section>
+
+<section>
+  <div class="cards">
+    <div class="card fade-up">
+      <img src="assets/images/service1.jpg" alt="">
+      <div class="card-content">
+        <h3>Consulting</h3>
+        <p>Expert guidance to take your business forward.</p>
+      </div>
+    </div>
+    <div class="card fade-up">
+      <img src="assets/images/service2.jpg" alt="">
+      <div class="card-content">
+        <h3>Design & Development</h3>
+        <p>Innovative solutions tailored to your needs.</p>
+      </div>
+    </div>
+    <div class="card fade-up">
+      <img src="assets/images/service3.jpg" alt="">
+      <div class="card-content">
+        <h3>Product Solutions</h3>
+        <p>Creating modern products with user-first design.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 NPHere | Beyond Limits, Into Tomorrow</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
